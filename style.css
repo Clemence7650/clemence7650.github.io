@@ -1,0 +1,56 @@
+/*CSS*/
+h1{
+		color: #26f3b8;
+}
+
+*{
+        margin: 0px;
+		padding: 0px;
+		font-family: Sans-serif, Avenir;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	float: left;
+}
+
+nav ul::after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+nav li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+nav{
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	position: sticky;
+	top: 0px;
+}
+
+nav a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px;
+}
+
+nav a:hover{
+	color: orange;
+	border-bottom; 2px soloid gold;
+}
+
+iframe{
+	text-align: center;
+}
+
